@@ -18,8 +18,6 @@ export default defineConfig({
         ElementPlusResolver({importStyle: "sass"})],
     }),
 
-
-  
   ],
   resolve: {
     alias: {
