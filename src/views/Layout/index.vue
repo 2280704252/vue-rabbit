@@ -8,6 +8,19 @@ import LayoutFooter from '@/views/Layout/components/LayoutFooter.vue';
 
 import LayoutFixed from "@/views/Layout/components/LayoutFixed.vue";
 
+import {useCategoryStore} from '@/stores/getCategory'
+import { onMounted } from "vue";
+
+
+const getCategory=useCategoryStore()
+
+onMounted(()=>{
+
+    getCategory.getCategory()
+})
+
+
+
 </script>
 
 <template>
