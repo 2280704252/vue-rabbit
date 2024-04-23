@@ -67,7 +67,7 @@
 .app_footer {
   overflow: hidden;
   background-color: #f5f5f5;
-  padding-top: 20px;
+  padding-top: 0px;
 
   .contact {
     background: #fff;

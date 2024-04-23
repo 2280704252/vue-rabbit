@@ -25,7 +25,7 @@ onMounted(()=>{
 
 <template>
 
-<div style="height:700px">
+<div style="height:750px">
   <LayoutFixed/>
 
   
