@@ -14,15 +14,15 @@ import HomeProductVue from "@/views/Layout/Home/HomeProduct.vue";
 
 <template>
 
-    <div style="height:600px ">
+    <div style="height:500px ">
         <HomeCategoryVue />
         <HomeBannerVue />
 
     </div>
-
+    <HomeProductVue/>
     <HomeNewVue />
     <HomeHotVue />
-    <HomeProductVue/>
+    
 
 
 </template>
